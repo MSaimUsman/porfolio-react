@@ -1,0 +1,61 @@
+/* 2nd page */
+.page-2-img {
+  display: flex;
+  margin: 110px 0px 80px 0px;
+}
+
+.about-page-2 {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  gap: 33px;
+  justify-content: center;
+}
+
+/* social media buttons */
+.btn-fb {
+  font-size: 34px;
+  width: 39px; 
+  height: 37px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: #3b5998;
+  color: white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.btn-fb:hover{
+  opacity: 1;
+}
+.btn-ld {
+  font-size: 28px;
+  width: 39px;
+  height: 37px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 2px solid;
+  background-color: #0072b1;
+  color: white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.btn-ld:hover{
+  opacity: 1;
+}
+.btn-mail {
+  font-size: 23px;
+  width: 39px;
+  height: 37px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: #bb001b;
+  color: white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.btn-mail:hover{
+  opacity: 1;
+}
+

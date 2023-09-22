@@ -1,0 +1,112 @@
+/* page color */
+body {
+  color: white;
+  background-color: black;
+  margin: 0px 60px 15px 75px;
+}
+
+/* header line including:home,about etc */
+.header {
+  word-spacing: 80px;
+  display: flex;
+  font-size: 130%;
+  position: relative;
+  top: 8px;
+}
+
+.header2{
+  position: relative;
+  left: 40px;
+  top: 35px;
+
+}
+.logo1{
+  width: 5%;
+}
+
+
+/* middle part */
+.middlepart {
+  display: flex;
+  margin-top: 47px;
+}
+.one-punch{
+  width: 29%;
+  height: 30%;
+}
+
+/* rick roll*/
+.click-here {
+  text-decoration: none;
+  border: 1px solid red;
+  background-color:black;
+  color: white;
+  cursor: pointer;
+  
+}
+.click-here:hover{
+  background-color:#0072b1;
+  color: white;
+}
+
+/*about my self*/
+.about {
+  margin-left: 174px;
+}
+
+/* link decoration */
+.header2 a:link {
+  text-decoration: none;
+  color: white;
+}
+.header2 a:visited {
+  text-decoration: none;
+  color: white;
+}
+.header2 a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+}
+.header2 a:active {
+  text-decoration: none;
+  color: black;
+}
+
+/* button decoration */
+/* contact btn */
+.btn-1 {
+  background-color: aqua;
+  border-radius: 25px;  
+  width: 135px;
+  height: 45px;
+  font-size: 15.5px;
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+  position: relative;
+  left: 400%;
+  top: 24px;
+}
+.btn-1:hover {
+  background-color: white;
+}
+
+
+/* download button-2 */
+.btn-2 {
+  background-color: black;
+  color: aqua;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid aqua;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn-2:hover {
+  background-color: aqua;
+  color: black;
+}
